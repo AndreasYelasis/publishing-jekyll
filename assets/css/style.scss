@@ -1,3 +1,6 @@
+---
+---
+
 $header-bg-color: red;
 
 @import "{{ site.theme }}";
@@ -6,7 +9,6 @@ $header-bg-color: red;
     color: purple;
 }
 
-b,
-strong {
+b, strong {
     color: red;
 }
