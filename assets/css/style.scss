@@ -1,6 +1,8 @@
 ---
 ---
 
+$header-bg-color: red;
+
 @import "{{ site.theme }}";
 
 .main-content h1 {
@@ -9,4 +11,9 @@
 
 b, strong {
     color: red;
+}
+
+.main-content table th, .main-content table td {
+	padding: 0.5rem 1rem;
+	border: 1px solid #00FF00;
 }
